@@ -7,26 +7,39 @@ Text (Black);
 Hover (Blue): #17ddcd;
 */
 
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 16px 16px;
+  border-bottom: 2px solid #4a4a4a;
+  position: relative;
+  box-shadow: 0px 2px 9px 0px rgba(50, 50, 50, 0.5);
+}
 body {
   background-color: #ffffff;
   font-family: 'Lato', roboto;
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 400; /* Sets the font weight to 300 */
-  line-height: 1.5; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
   color: #black;
 }
-
 h1, h2, h3, h4 {
-  line-height: 1.4;
+  line-height: 1.25;
+  margin: 0
 }
 h1 {
   font-size: 3.052em;
   font-weight: 500;
+  padding: 16px 0px 16px 0px;
 }
 
 h2 {
   font-size: 2.441em;
   font-weight: 500;
+  padding: 0px 0px 16px 0px;
 }
 
 h3 {
@@ -179,4 +192,157 @@ a:focus {
 .links:focus {
   color: #ffffff;
   text-decoration: none;
+}
+nav {
+  font-size: 1em;
+  display: inline-block;
+  max-width: 100%
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 16px;
+  font-weight: 500;
+  color: #4a4a4a;
+}
+.chips > ul {
+  list-style-type: none;
+  padding: 0;
+}
+.chips > ul > li {
+  display: inline-block;
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 32px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f2f2f2;
+}
+.double_buttons > ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.double_buttons > ul > li {
+  display: inline-block;
+  padding: 8px;
+  text-align: center;
+}
+/* Layout styling */
+.logo {
+  max-width: 100%;
+}
+.icon {
+  max-width: 32px;
+}
+.container {
+  padding: 48px 16px;
+  max-width: 100%;
+}
+#hero_home{
+  background-color: #efddff;
+}
+#hero h1 {
+  text-align: center;
+  margin: 0;
+}
+#hero p {
+  text-align: center;
+}
+#work h2 {
+  text-align: center;
+}
+#related_case_studies h2 {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.copyright {
+  text-align: center;
+  color: #ffffff;
+}
+.chips_container {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f2f2f2;
+  padding: 16px;
+  box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+}
+.chip {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 32px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f2f2f2;
+  text-align: center;
+}
+.overview_card {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f2f2f2;
+  box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+}
+.key_features_card {
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f2f2f2;
+  box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+}
+.groove_ux_card {
+  padding: 16px;
+  background-color: #efddff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #853cff;
+  box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+}
+.project_card {
+  padding: 16px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f2f2f2;
+  box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+}
+.project_card:hover {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #853cff;
+  box-shadow: 2px 2px 8px darkgrey;
+}
+.overview_container {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f2f2f2;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+}
+#hero .button {
+  display: inline-block;
+}
+#hero .button_secondary {
+  display: inline-block;
+}
+#scope {
+  background-color: #f2f2f2;
+}
+#design_process {
+  background-color: #f2f2f2;
 }
