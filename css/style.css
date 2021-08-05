@@ -45,10 +45,12 @@ h2 {
 h3 {
   font-size: 1.953em;
   font-weight: 500;
+  padding: 0px 0px 8px 0px;
 }
 h4 {
-  font-size: 1.563em;
-  font-weight: 500;
+  font-size: 1.25em;
+  font-weight: 400;
+  color: #853cff
 }
 h5 {
   font-size: 1em;
@@ -60,6 +62,9 @@ button {
 }
 img {
   width: 100%;
+}
+picture {
+  width: 100%
 }
 footer{
   background-color:#853cff
@@ -109,7 +114,7 @@ a:focus {
   box-shadow: 1px 1px 8px darkgrey;
 }
 .button:visited {
-  color: #ffffff;
+  color: white;
 }
 .button:hover {
   color: white;
@@ -169,6 +174,45 @@ a:focus {
   text-decoration: none;
   box-shadow: 1px 1px 8px darkgrey;
 }
+
+.centered_button {
+  display: inline-block;
+  background-color: #853cff;
+  color: white;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 4px;
+  border-color: #853cff;
+  border-bottom: 2px solid #853cff;
+  border-top: 2px solid #853cff;
+  border-left: 2px solid #853cff;
+  border-right: 2px solid #853cff;
+  transition: 0.2s opacity;
+}
+.centered_button:hover {
+  opacity: 0.8;
+  color: white;
+  text-decoration: none;
+  box-shadow: 1px 1px 8px darkgrey;
+}
+.centered_button:visited {
+  color: white;
+}
+.centered_button:hover {
+  color: white;
+  text-decoration: none;
+}
+.centered_button:active {
+  opacity: 0.8;
+  color: #efddff;
+  text-decoration: none;
+  box-shadow: 1px 1px 8px darkgrey;
+}
+.centered_button:hover,
+.centered_button:focus {
+  color: white;
+  text-decoration: none;
+}
 .links {
   color: white;
   font-weight: 400;
@@ -210,6 +254,30 @@ nav > ul > li > a {
   font-weight: 500;
   color: #4a4a4a;
 }
+#footer nav {
+  color: white;
+}
+#footer {
+  color: white;
+  text-align: center;
+}
+.links {   <!-- not sure what's happening here with bottom nav -->
+  font-size: 1em;
+  display: inline-block;
+  max-width: 100%
+}
+.icons > ul {
+  list-style-type: none;
+  padding: 0;
+}
+.icons > ul > li {
+  display: inline-block;
+  text-align: center;
+}
+.icons > ul > li > a {
+  padding: 0 16px;
+  font-weight: 500;
+}
 .chips > ul {
   list-style-type: none;
   padding: 0;
@@ -222,6 +290,7 @@ nav > ul > li > a {
   border-style: solid;
   border-width: 2px;
   border-color: #f2f2f2;
+  margin: 4px 0px;
 }
 .double_buttons > ul {
   list-style-type: none;
@@ -233,19 +302,48 @@ nav > ul > li > a {
   padding: 8px;
   text-align: center;
 }
+.centered_button {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0px;
+}
+source .persona {
+  max-width: 14%;
+}
+
 /* Layout styling */
 .logo {
   max-width: 100%;
+  font-size: 1.953em;
+  font-weight: 500;
+  color: #853cff;
 }
-.icon {
+.icons {
   max-width: 32px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.icons > ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+.icons > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  text-align: center;
 }
 .container {
-  padding: 48px 16px;
+  padding: 24px 16px;
   max-width: 100%;
 }
 #hero_home {
   background-color: #efddff;
+  text-align: center;
 }
 #hero h1 {
   text-align: center;
@@ -262,6 +360,7 @@ nav > ul > li > a {
 }
 .center {
   text-align: center;
+  padding: 16px;
 }
 .copyright {
   text-align: center;
@@ -274,6 +373,7 @@ nav > ul > li > a {
   border-color: #f2f2f2;
   padding: 16px;
   box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+  margin: 8px 0px;
 }
 .chip {
   display: inline-block;
@@ -283,8 +383,9 @@ nav > ul > li > a {
   border-width: 2px;
   border-color: #f2f2f2;
   text-align: center;
+  margin: 4px 0px;
 }
-.overview_card {
+.card {
   padding: 16px;
   background-color: white;
   border-radius: 10px;
@@ -292,6 +393,10 @@ nav > ul > li > a {
   border-width: 2px;
   border-color: #f2f2f2;
   box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+  margin: 8px 0px;
+}
+.key_features_icon {
+  text-align: center;
 }
 .key_features_card {
   padding: 16px;
@@ -301,6 +406,11 @@ nav > ul > li > a {
   border-width: 2px;
   border-color: #f2f2f2;
   box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+  margin: 8px 0px;
+}
+.key_features_card > p{
+  margin: 0px;
+  text-align: center;
 }
 .groove_ux_card {
   padding: 16px;
@@ -310,6 +420,7 @@ nav > ul > li > a {
   border-width: 2px;
   border-color: #853cff;
   box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+  margin: 8px 0px;
 }
 .project_card {
   padding: 16px;
@@ -318,6 +429,7 @@ nav > ul > li > a {
   border-width: 2px;
   border-color: #f2f2f2;
   box-shadow: 0px 0px 20px 0px rgb(221 221 221 / 50%);
+  margin: 8px 0px;
 }
 .project_card:hover {
   border-radius: 10px;
@@ -345,4 +457,133 @@ nav > ul > li > a {
 }
 #design_process {
   background-color: #f2f2f2;
+}
+#accessibility {
+  background-color: #f2f2f2;
+}
+
+
+@media only screen and (min-width: 640px) {
+  header {
+  text-align: unset;
+  padding: 16px;
+  }
+  nav {
+    width: auto;
+    float: right;
+  }
+  header > nav > ul {
+    magin: 0px;
+  }
+  .header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body {
+    font-size: 18px
+  }
+  #hero_home {
+    text-align: center;
+    display: block;
+  }
+  #hero_home span{
+    text-align: center;
+    display: block;
+  }
+  #hero {
+    text-align: center;
+    display: block;
+  }
+  #hero span{
+    text-align: center;
+    display: block;
+  }
+  .container {
+    padding: 32px 24px;
+  }
+  #work h2 {
+    text-align: left;
+  }
+  .col-md-6 {
+  width: 50%;
+  }
+  .col-md-4 {
+  width: 33.33%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 0px 8px;
+  }
+  .row_for_columns::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  .personas img {
+    max-width: 40%;
+  }
+@media only screen and (min-width: 1024px) {
+  header {
+  text-align: unset;
+  padding: 16px;
+  }
+  nav {
+    width: auto;
+    float: right;
+  }
+  header > nav > ul {
+    magin: 0px;
+  }
+  .header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body {
+    font-size: 18px
+  }
+  #hero_home {
+    text-align: center;
+    display: block;
+  }
+  #hero_home span{
+    text-align: center;
+    display: block;
+  }
+  #hero {
+    text-align: center;
+    display: block;
+  }
+  #hero span{
+    text-align: center;
+    display: block;
+  }
+  #scope .container {
+    padding: 48px 16px 192px 16px;
+  }
+  .col-md-6 {
+  width: 50%;
+  }
+  .col-md-4 {
+  width: 33.33%;
+  }
+  .col-md-3 {
+  width: 25%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 0px 8px;
+  }
+  .row_for_columns::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  .personas img {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
 }
