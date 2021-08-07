@@ -31,7 +31,7 @@
     </header>
 
 
-    <main>
+    <main id="main_container">
       <!-- For the Hero Section -->
       <div class="hero" id="hero">
         <div class="container">
@@ -41,13 +41,15 @@
           </span>
           <div class="groove-responsive-gif">
             <video>
-              <source srcset="img/groove_ux/groove_ux_hero.mov" type="video/mov">
+              <source src="./img/groove_ux/groove_ux_hero.mp4" type="video/mp4" autoplay>
             </video>
           </div>
-          <div class="project-description">
+          <div class="#">
             <p>This is a full end-to-end product design for a health and fitness app where I was responsible for everything from research and wireframing to prototyping, testing, and branding. The prototype provides users with a guided workout experience and allows users to track, record, and analyze their fitness metrics and progress. </p>
           </div>
-          <a href="https://www.figma.com/proto/iiK4Ks233s4CHA41ZthVI8/Groove-Health-and-Fitness-App-(Portfolio)?page-id=644%3A23&node-id=644%3A489&scaling=min-zoom" class="centered_button">View Full Prototype</a>
+          <div class="center">
+            <a href="https://www.figma.com/proto/iiK4Ks233s4CHA41ZthVI8/Groove-Health-and-Fitness-App-(Portfolio)?page-id=644%3A23&node-id=644%3A489&scaling=min-zoom" class="button">View Full Prototype</a>
+          </div>
         </div>
       </div>
 
@@ -56,27 +58,27 @@
         <div class="container">
           <div class="row-for-columns"><!-- OPEN Row That Holds 3 Columns for Overview -->
             <div class="col-md-4">
-              <div class="card"><!-- OPEN Category -->
+              <div class="card">
                 <h3>Category</h3>
                 <p>UX Design</p>
-              </div><!-- END Category -->
+              </div>
             </div>
             <div class="col-md-4">
-              <div class="card"><!-- OPEN Type -->
+              <div class="card">
                 <h3>Type</h3>
                 <p>Responsive Web App</p>
-              </div><!-- END Type -->
+              </div>
             </div>
             <div class="col-md-4">
-              <div class="card"><!-- OPEN Timeline -->
+              <div class="card">
                 <h3>Timeline</h3>
                 <p>8 Months</p>
-              </div><!-- END Timeline -->
+              </div>
             </div>
           </div><!-- END Row That Holds 3 Columns for Overview -->
           <div class="row-for-columns"><!-- OPEN Row That Holds 2 Columns for Overview -->
             <div class="col-md-6">
-              <div class="card"><!-- OPEN My Roles -->
+              <div class="card">
                 <h3>My Roles</h3>
                 <div class="chips">
                   <ul>
@@ -86,10 +88,10 @@
                     <li><p>Marketing</p></li>
                   </ul>
                 </div>
-              </div><!-- END Roles -->
+              </div>
             </div>
             <div class="col-md-6">
-              <div class="card"><!-- OPEN Tools -->
+              <div class="card">
                 <h3>Tools</h3>
                 <div class="chips">
                   <ul>
@@ -102,25 +104,27 @@
                     <li><p>Zoom</p></li>
                   </ul>
                 </div>
-              </div><!-- END Tools -->
+              </div>
             </div>
           </div><!-- END Row That Holds 2 Columns for Overview -->
-          <p class="center">Want to hear more about this project? Send me an message at <a href="mailto:stephaniebippert@hotmail.com" target="_blank">stephaniebippert@hotmail.com</a></p>
+          <div class="center">
+            <p>Want to hear more about this project? Send me an message at <a href="mailto:stephaniebippert@hotmail.com" target="_blank">stephaniebippert@hotmail.com</a></p>
+          </div>
         </div>
       </div>
 
 
       <!-- For the Scope Section -->
       <div class="scope" id="scope">
-        <div class="container">
+        <div class="container" id="card_col">
           <h2>Scope</h2>
           <div class="row-for-columns"><!-- OPEN Row That Holds 2 Columns for Scope -->
             <div class="col-md-6">
-              <div class="scope_problem">
+              <div class="#">
                 <h3>Problem</h3>
                 <p>Provide users a way to receive customized recommendations, track, record, and analyze health and fitness metrics, while taking environmental factors, knowledge level and physical condition into consideration</p>
               </div>
-              <div class="scope_solution">
+              <div class="#">
                 <h3>Solution</h3>
                 <p>Designed a high fidelity prototype that guides users throughout their fitness journey, grants them access to physical wellbeing features, and provides a platform to record and analyze their fitness metrics and progress on their goals.</p>
               </div>
@@ -128,67 +132,70 @@
             <div class="col-md-6">
               <div class="groove-responsive-gif">
                 <video>
-                  <source srcset="img/groove_ux/groove_ux_scope.mov" type="video/mov">
+                  <source src="./img/groove_ux/groove_ux_scope.mp4" type="video/mp4" autoplay>
                 </video>
               </div>
             </div>
             <div class="center">
-              <a href="https://www.figma.com/proto/iiK4Ks233s4CHA41ZthVI8/Groove-Health-and-Fitness-App-(Portfolio)?page-id=644%3A23&node-id=644%3A489&scaling=min-zoom" class="centered_button">View Full Prototype</a>
+              <a href="https://www.figma.com/proto/iiK4Ks233s4CHA41ZthVI8/Groove-Health-and-Fitness-App-(Portfolio)?page-id=644%3A23&node-id=644%3A489&scaling=min-zoom" class="button">View Full Prototype</a>
             </div>
           </div><!-- END Row That Holds 2 Columns for Scope -->
-          <div class="container">
-            <h3>Key Features</h3>
-            <div class="row-for-columns"><!-- OPEN Row That Holds 3 Columns for Key Features -->
-              <div class="col-md-4">
-                <div class="key_features_card">
-                  <div class="key_features_icon">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7.5 5.25H5.25C4.83579 5.25 4.5 5.58579 4.5 6V18C4.5 18.4142 4.83579 18.75 5.25 18.75H7.5C7.91421 18.75 8.25 18.4142 8.25 18V6C8.25 5.58579 7.91421 5.25 7.5 5.25Z" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M18.75 5.25H16.5C16.0858 5.25 15.75 5.58579 15.75 6V18C15.75 18.4142 16.0858 18.75 16.5 18.75H18.75C19.1642 18.75 19.5 18.4142 19.5 18V6C19.5 5.58579 19.1642 5.25 18.75 5.25Z" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M19.5 7.5H21.75C21.9489 7.5 22.1397 7.57902 22.2803 7.71967C22.421 7.86032 22.5 8.05109 22.5 8.25V15.75C22.5 15.9489 22.421 16.1397 22.2803 16.2803C22.1397 16.421 21.9489 16.5 21.75 16.5H19.5" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M4.5 16.5H2.25C2.05109 16.5 1.86032 16.421 1.71967 16.2803C1.57902 16.1397 1.5 15.9489 1.5 15.75V8.25C1.5 8.05109 1.57902 7.86032 1.71967 7.71967C1.86032 7.57902 2.05109 7.5 2.25 7.5H4.5" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M8.25 12H15.75" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                  <p>Browse and Complete Workout Routine</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="key_features_card">
-                  <div class="key_features_icon">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21.375 19.5H2.625" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M9.375 19.5V8.25H14.625" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M19.875 3.75H14.625V19.5H19.875V3.75Z" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M4.125 19.5V12.75H9.375" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                  <p>Set Goals, Track Metrics, and View Fitness Progress</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="key_features_card">
-                  <div class="key_features_icon">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 12.75C13.6569 12.75 15 11.4069 15 9.75C15 8.09315 13.6569 6.75 12 6.75C10.3431 6.75 9 8.09315 9 9.75C9 11.4069 10.3431 12.75 12 12.75Z" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M19.5 9.75C19.5 16.5 12 21.75 12 21.75C12 21.75 4.5 16.5 4.5 9.75C4.5 7.76088 5.29018 5.85322 6.6967 4.4467C8.10322 3.04018 10.0109 2.25 12 2.25C13.9891 2.25 15.8968 3.04018 17.3033 4.4467C18.7098 5.85322 19.5 7.76088 19.5 9.75V9.75Z" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                  <p>Create and Discover Nearby Routes</p>
-                </div>
-              </div>
-            </div><!-- END Row That Holds 3 Columns for Key Features -->
-          </div>
         </div>
       </div>
+      <div class="key_features" id="key_features">
+        <div class="container" id="card_col">
+          <h3>Key Features</h3>
+          <div class="row-for-columns"><!-- OPEN Row That Holds 3 Columns for Key Features -->
+            <div class="col-md-4">
+              <div class="card">
+                <div class="icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.5 5.25H5.25C4.83579 5.25 4.5 5.58579 4.5 6V18C4.5 18.4142 4.83579 18.75 5.25 18.75H7.5C7.91421 18.75 8.25 18.4142 8.25 18V6C8.25 5.58579 7.91421 5.25 7.5 5.25Z" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M18.75 5.25H16.5C16.0858 5.25 15.75 5.58579 15.75 6V18C15.75 18.4142 16.0858 18.75 16.5 18.75H18.75C19.1642 18.75 19.5 18.4142 19.5 18V6C19.5 5.58579 19.1642 5.25 18.75 5.25Z" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M19.5 7.5H21.75C21.9489 7.5 22.1397 7.57902 22.2803 7.71967C22.421 7.86032 22.5 8.05109 22.5 8.25V15.75C22.5 15.9489 22.421 16.1397 22.2803 16.2803C22.1397 16.421 21.9489 16.5 21.75 16.5H19.5" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M4.5 16.5H2.25C2.05109 16.5 1.86032 16.421 1.71967 16.2803C1.57902 16.1397 1.5 15.9489 1.5 15.75V8.25C1.5 8.05109 1.57902 7.86032 1.71967 7.71967C1.86032 7.57902 2.05109 7.5 2.25 7.5H4.5" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M8.25 12H15.75" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <p>Browse and Complete Workout Routine</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21.375 19.5H2.625" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9.375 19.5V8.25H14.625" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M19.875 3.75H14.625V19.5H19.875V3.75Z" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M4.125 19.5V12.75H9.375" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <p>Set Goals, Track Metrics, and View Fitness Progress</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class=" icon">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 12.75C13.6569 12.75 15 11.4069 15 9.75C15 8.09315 13.6569 6.75 12 6.75C10.3431 6.75 9 8.09315 9 9.75C9 11.4069 10.3431 12.75 12 12.75Z" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M19.5 9.75C19.5 16.5 12 21.75 12 21.75C12 21.75 4.5 16.5 4.5 9.75C4.5 7.76088 5.29018 5.85322 6.6967 4.4467C8.10322 3.04018 10.0109 2.25 12 2.25C13.9891 2.25 15.8968 3.04018 17.3033 4.4467C18.7098 5.85322 19.5 7.76088 19.5 9.75V9.75Z" stroke="#FF3B00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <p>Create and Discover Nearby Routes</p>
+              </div>
+            </div>
+          </div><!-- END Row That Holds 3 Columns for Key Features -->
+        </div>
+      </div>
+
 
       <!-- For the Research Section -->
       <div class="research" id="research">
         <div class="container">
           <h2>Research</h2>
           <p>User research guided the creation of my user personas, user journeys, user stories, and sitemap.</p>
-          <div class="row-for-columns"><!-- OPEN Row That Holds 2 Columns for Methods and Key Insights -->
-            <div class="col-md-6">
+          <div class="row-for-columns" id="card_col"><!-- OPEN Row That Holds 2 Columns for Methods and Key Insights -->
+            <div class="col-md-4">
               <div class="card">
                 <h3>Methods</h3>
                 <div class="chips">
@@ -202,26 +209,28 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
               <div class="card">
                 <h3>Key Insights</h3>
-                <div class="col-md-6">
-                  <p>Top 5 Motivations</p>
-                  <ol>
-                    <li><p>Health Conscious</p></li>
-                    <li><p>Gain Strength</p></li>
-                    <li><p>Lose Weight</p></li>
-                    <li><p>Aging</p></li>
-                    <li><p>Pain/Injury</p></li>
-                  </ol>
-                </div>
-                <div class="col-md-6">
-                  <p>Top 4 Needs</p>
-                  <ol>
-                    <li><p>Improve overall fitness and health</p></li>
-                    <li><p>Exercise without equipment</p></li>
-                    <li><p>Increase knowledge on equipment and exercise</p></li>
-                  </ol>
+                <div class="row">
+                  <div class="column6">
+                    <p>Top 5 Motivations</p>
+                    <ol>
+                      <li><p>Health Conscious</p></li>
+                      <li><p>Gain Strength</p></li>
+                      <li><p>Lose Weight</p></li>
+                      <li><p>Aging</p></li>
+                      <li><p>Pain/Injury</p></li>
+                    </ol>
+                  </div>
+                  <div class="column6">
+                    <p>Top 4 Needs</p>
+                    <ol>
+                      <li><p>Improve overall fitness and health</p></li>
+                      <li><p>Exercise without equipment</p></li>
+                      <li><p>Increase knowledge on equipment and exercise</p></li>
+                    </ol>
+                  </div>
                 </div>
               </div>
             </div>
@@ -244,51 +253,55 @@
 
         <!-- For the Personas Section -->
       <div class="personas" id="personas">
-        <div class="container">
+        <div class="container" id="card_col">
           <h3>Core Personas</h3>
           <p>These core personas were created based on results from social listening, user interviews, and surveys, and informed key decisions throughout the entire design process.</p>
           <div class="row-for-columns"><!-- OPEN Row That Holds 2 Columns for Personas -->
-            <div class="card">
-              <div class="row_for_columns">
-                <div class="col-md-6">
-                  <picture class="persona">
-                    <source srcset="img/groove_ux/meg_persona_circle_x1.jpg" media="(max-width:767px)">
-                    <img src="img/groove_ux/meg_persona_circle_x2.jpg" alt="Meg Headshot">
-                  </picture>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="row_for_columns">
+                  <div class="col-md-7">
+                    <picture>
+                      <source srcset="img/groove_ux/meg_persona_circle_x1.jpg" media="(max-width:767px)">
+                      <img class="persona" src="img/groove_ux/meg_persona_circle_x2.jpg" alt="Meg Headshot">
+                    </picture>
+                  </div>
+                  <div class="col-md-5">
+                    <h4>Meg, 20</h4>
+                    <span>
+                        <p>Time Constrained Student</p>
+                    </span>
+                    <p>“I like animations/videos that show you how to do the exercises”</p>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                  <h4>Meg, 20</h4>
-                  <span>
-                      <p>Time Constrained Student</p>
-                  </span>
-                  <p>“I like animations/videos that show you how to do the exercises”</p>
+                <div class="goals-and-needs">
+                  <p>Goals & Needs</p>
+                  <ol>
+                    <li><p>Equipment free workouts</p></li>
+                    <li><p>Connect to smart watch</p></li>
+                    <li><p>Gain a full understanding of what is required of the exercise and how to do it</p></li>
+                    <li><p>Easily and seamlessly follow along to a personalized workout routine</p></li>
+                    <li><p>Record metrics for tracking progress and measuring workout effectiveness</p></li>
+                  </ol>
                 </div>
-              </div>
-              <div class="goals-and-needs">
-                <p>Goals & Needs</p>
-                <ol>
-                  <li><p>Equipment free workouts</p></li>
-                  <li><p>Connect to smart watch</p></li>
-                  <li><p>Gain a full understanding of what is required of the exercise and how to do it</p></li>
-                  <li><p>Easily and seamlessly follow along to a personalized workout routine</p></li>
-                  <li><p>Record metrics for tracking progress and measuring workout effectiveness</p></li>
-                </ol>
               </div>
             </div>
-            <div class="card">
-              <div class="row_for_columns">
-                <div class="col-md-6">
-                  <picture>
-                    <source class="persona" srcset="img/groove_ux/anthony_persona_circle_x1.jpg" media="(max-width:48px)">
-                    <img src="img/groove_ux/anthony_persona_circle_x2.jpg" alt="Meg Headshot">
-                  </picture>
-                </div>
-                <div class="col-md-6">
-                  <h4>Anthony, 29</h4>
-                  <span>
-                      <p>Data Driven Financial Analyst</p>
-                  </span>
-                  <p>“I want to visualize my progress, instructions, and data – the more graphs, rings, maps, the better”</p>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="row_for_columns">
+                  <div class="col-md-7">
+                    <picture>
+                      <source srcset="img/groove_ux/anthony_persona_circle_x1.jpg" media="(max-width:48px)">
+                      <img class="persona" src="img/groove_ux/anthony_persona_circle_x2.jpg" alt="Meg Headshot">
+                    </picture>
+                  </div>
+                  <div class="col-md-5">
+                    <h4>Anthony, 29</h4>
+                    <span>
+                        <p>Data Driven Financial Analyst</p>
+                    </span>
+                    <p>“I want to visualize my progress, instructions, and data – the more graphs, rings, maps, the better”</p>
+                  </div>
                 </div>
                 <div class="goals-and-needs">
                   <p>Goals & Needs</p>
@@ -316,7 +329,7 @@
           <p>Groove’s design went through multiple rounds of iterations to incorporate material design standards, grids / responsive frameworks, branding elements, user testing insights, peer review feedback, and accessibiltiy requirements.</p>
           <div class="design-process-gif">
             <video>
-              <source srcset="img/groove_ux/groove_ux_design_process.mov" type="video/mov">
+              <source src="img/groove_ux/groove_ux_design_process.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -325,7 +338,7 @@
           <p>Groove incorporates many micro interactions including interactive on-page tabs, interactive onboarding buttons, horizontal and vertical scrolling, functional “favorite” and “automatic timer” icons, video controls, and animations.</p>
           <div class="interactions-gif">
             <video>
-              <source srcset="img/groove_ux/groove_interactions.mov" type="video/mov">
+              <source src="img/groove_ux/groove_interactions.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -338,20 +351,22 @@
           <div class="row-for-columns">
             <div class="col-md-6">
               <div class="row-for-columns">
-                <div class="col-md-3">
-                  <div class="app-screenshot-small">
-                    <picture>
-                      <source srcset="img/groove_ux/groove_ux_accessibility_before_2_x1.jpg" media="(max-width:767px)">
-                      <img src="img/groove_ux/groove_ux_accessibility_before_2_x2.jpg" alt="Groove Home Screen Before">
-                    </picture>
+                <div class="row">
+                  <div class="column4">
+                    <div class="app-screenshot-small">
+                      <picture>
+                        <source srcset="img/groove_ux/groove_ux_accessibility_before_2_x1.jpg" media="(max-width:767px)">
+                        <img src="img/groove_ux/groove_ux_accessibility_before_2_x2.jpg" alt="Groove Home Screen Before">
+                      </picture>
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="accessibility-screenshot">
-                    <picture>
-                      <source srcset="img/groove_ux/accessibility_before_1_x1.jpg" media="(max-width:767px)">
-                      <img src="img/groove_ux/accessibility_before_1_x2.jpg" alt="Accessibility Metrics Before">
-                    </picture>
+                  <div class="column8">
+                    <div class="accessibility-screenshot">
+                      <picture>
+                        <source srcset="img/groove_ux/accessibility_before_1_x1.jpg" media="(max-width:767px)">
+                        <img src="img/groove_ux/accessibility_before_1_x2.jpg" alt="Accessibility Metrics Before">
+                      </picture>
+                    </div>
                   </div>
                 </div>
                 <div class="center">
@@ -361,20 +376,22 @@
             </div>
             <div class="col-md-6">
               <div class="row-for-columns">
-                <div class="col-md-3">
-                  <div class="accessibility-screenshot">
-                    <picture>
-                      <source srcset="img/groove_ux/groove_ux_accessibility_after_2_x1.jpg" media="(max-width:767px)">
-                      <img src="img/groove_ux/groove_ux_accessibility_after_2_x2.jpg" alt="Groove Home Screen After">
-                    </picture>
+                <div class="row">
+                  <div class="column4">
+                    <div class="accessibility-screenshot">
+                      <picture>
+                        <source srcset="img/groove_ux/groove_ux_accessibility_after_2_x1.jpg" media="(max-width:767px)">
+                        <img src="img/groove_ux/groove_ux_accessibility_after_2_x2.jpg" alt="Groove Home Screen After">
+                      </picture>
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="app-screenshot-photo">
-                    <picture>
-                      <source srcset="img/groove_ux/accessibility_after_1_x1.jpg" media="(max-width:767px)">
-                      <img src="img/groove_ux/accessibility_after_1_x2.jpg" alt="Accessibility Metrics After">
-                    </picture>
+                  <div class="column8">
+                    <div class="app-screenshot-photo">
+                      <picture>
+                        <source srcset="img/groove_ux/accessibility_after_1_x1.jpg" media="(max-width:767px)">
+                        <img src="img/groove_ux/accessibility_after_1_x2.jpg" alt="Accessibility Metrics After">
+                      </picture>
+                    </div>
                   </div>
                 </div>
                 <div class="center">
@@ -418,14 +435,14 @@
             </div>
           </div>
           <div class="center">
-            <a href="#" class="centered_button">Read UI Case Study</a>
+            <a href="#" class="button">Read UI Case Study</a>
           </div>
         </div>
       </div>
 
       <!-- For the Related Case Studies Section -->
       <div class="related_case_studies" id="case_studies">
-        <div class="container">
+        <div class="container" id="card_col">
           <h2>Related Case Studies</h2>
           <div class="row-for-columns"><!-- OPEN Row That Holds 3 Columns for Projects -->
             <div class="col-md-4">
@@ -461,8 +478,10 @@
     <!-- For the Footer -->
     <footer id="footer">
       <div class="container">
-        <h2>Get In Touch!</h2>
-        <p>Have a question about my work or want to discuss opportunities?</p>
+        <div class="footer-text">
+          <h2>Get In Touch!</h2>
+          <p>Have a question about my work or want to discuss opportunities?</p>
+        </div>
         <div class="links">
           <nav>
             <ul>
@@ -472,18 +491,20 @@
             </ul>
           </nav>
         </div>
-        <div class="icons">
-          <a href="https://www.linkedin.com/in/stephanie-bippert/" target="_blank">
-            <svg class="icon" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M38.891 0H3.10078C1.38633 0 0 1.35352 0 3.02695V38.9648C0 40.6383 1.38633 42 3.10078 42H38.891C40.6055 42 42 40.6383 42 38.973V3.02695C42 1.35352 40.6055 0 38.891 0ZM12.4605 35.7902H6.22617V15.7418H12.4605V35.7902ZM9.34336 13.0102C7.3418 13.0102 5.72578 11.3941 5.72578 9.40078C5.72578 7.40742 7.3418 5.79141 9.34336 5.79141C11.3367 5.79141 12.9527 7.40742 12.9527 9.40078C12.9527 11.3859 11.3367 13.0102 9.34336 13.0102ZM35.7902 35.7902H29.5641V26.0449C29.5641 23.7234 29.523 20.7293 26.3238 20.7293C23.0836 20.7293 22.5914 23.2641 22.5914 25.8809V35.7902H16.3734V15.7418H22.3453V18.4816H22.4273C23.2559 16.9066 25.2902 15.2414 28.3172 15.2414C34.6254 15.2414 35.7902 19.3922 35.7902 24.7898V35.7902Z" fill="white"/>
-            </svg>
-          </a>
-          <a href="mailto:stephaniebippert@hotmail.com" target="_blank">
-            <svg width="44" height="44" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M29.4998 26.722L52.7557 13.0783C51.3966 11.0674 49.1351 9.85392 46.7082 9.83325H12.2915C9.85168 9.83219 7.56925 11.0378 6.19482 13.0537L29.4998 26.722Z" fill="white"/>
-            <path d="M31.9582 30.9504C31.2112 31.3837 30.3634 31.6126 29.4998 31.6141C28.6386 31.6201 27.7908 31.3997 27.0415 30.9749L4.9165 18.0195V41.7916C4.9165 45.8647 8.2184 49.1666 12.2915 49.1666H46.7082C50.7813 49.1666 54.0832 45.8647 54.0832 41.7916V18.0195L31.9582 30.9504Z" fill="white"/>
-            </svg>
-          </a>
+        <div class="double_buttons">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/stephanie-bippert/" target="_blank">
+              <svg width="40" height="40" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M38.891 0H3.10078C1.38633 0 0 1.35352 0 3.02695V38.9648C0 40.6383 1.38633 42 3.10078 42H38.891C40.6055 42 42 40.6383 42 38.973V3.02695C42 1.35352 40.6055 0 38.891 0ZM12.4605 35.7902H6.22617V15.7418H12.4605V35.7902ZM9.34336 13.0102C7.3418 13.0102 5.72578 11.3941 5.72578 9.40078C5.72578 7.40742 7.3418 5.79141 9.34336 5.79141C11.3367 5.79141 12.9527 7.40742 12.9527 9.40078C12.9527 11.3859 11.3367 13.0102 9.34336 13.0102ZM35.7902 35.7902H29.5641V26.0449C29.5641 23.7234 29.523 20.7293 26.3238 20.7293C23.0836 20.7293 22.5914 23.2641 22.5914 25.8809V35.7902H16.3734V15.7418H22.3453V18.4816H22.4273C23.2559 16.9066 25.2902 15.2414 28.3172 15.2414C34.6254 15.2414 35.7902 19.3922 35.7902 24.7898V35.7902Z" fill="white"/>
+              </svg>
+            </a></li>
+            <li><a href="mailto:stephaniebippert@hotmail.com" target="_blank">
+              <svg width="48" height="48" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M29.4998 26.722L52.7557 13.0783C51.3966 11.0674 49.1351 9.85392 46.7082 9.83325H12.2915C9.85168 9.83219 7.56925 11.0378 6.19482 13.0537L29.4998 26.722Z" fill="white"/>
+              <path d="M31.9582 30.9504C31.2112 31.3837 30.3634 31.6126 29.4998 31.6141C28.6386 31.6201 27.7908 31.3997 27.0415 30.9749L4.9165 18.0195V41.7916C4.9165 45.8647 8.2184 49.1666 12.2915 49.1666H46.7082C50.7813 49.1666 54.0832 45.8647 54.0832 41.7916V18.0195L31.9582 30.9504Z" fill="white"/>
+              </svg>
+            </a></li>
+          </ul>
         </div>
         <div class="copyright">
           <p>Copyright Stephanie Bippert 2021</p>
