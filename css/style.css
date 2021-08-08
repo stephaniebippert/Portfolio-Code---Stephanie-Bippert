@@ -278,9 +278,10 @@ picture .persona{
   max-height: 96px;
   width: auto;
 }
-.shrink img{
+.headshot img{
   max-width: 50%;
   width: auto;
+  border-radius: 100%;
 }
 #accessibility img {
   border-style: solid;
@@ -334,7 +335,7 @@ picture .persona{
   text-align: center;
 }
 .center {
-  text-align: center;
+  display: block;
   justify-content: center;
   align-items: center;
   padding: 16px;
